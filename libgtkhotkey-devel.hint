@@ -1,0 +1,6 @@
+category: Gnome
+requires: libgtkhotkey1 libglib2.0-devel libgtk2.0-devel libX11-devel
+external-source: gtkhotkey
+sdesc: "GTK+ hotkey library (development)"
+ldesc: "A library providing platform independent hotkey handling for 
+Gtk+ applications."

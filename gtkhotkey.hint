@@ -1,0 +1,4 @@
+category: Gnome
+sdesc: "GTK+ hotkey library (sources)"
+ldesc: "A library providing platform independent hotkey handling for 
+Gtk+ applications."

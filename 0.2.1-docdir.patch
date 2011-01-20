@@ -1,0 +1,12 @@
+--- origsrc/gtkhotkey-0.2.1/Makefile.am	2009-09-03 15:52:49.000000000 -0500
++++ src/gtkhotkey-0.2.1/Makefile.am	2011-01-19 23:34:30.550869900 -0600
+@@ -11,8 +11,7 @@ SUBDIRS = src po test doc
+ pkgconfigdir = $(libdir)/pkgconfig
+ pkgconfig_DATA = gtkhotkey-1.0.pc
+ 
+-gtkhotkeydocdir = ${prefix}/doc/gtkhotkey
+-gtkhotkeydoc_DATA = \
++doc_DATA = \
+ 	README			\
+ 	COPYING			\
+ 	AUTHORS			\
