@@ -9,7 +9,10 @@ DESCRIPTION="A library providing platform independent hotkey handling for
 Gtk+ applications."
 HOMEPAGE="https://launchpad.net/gtkhotkey"
 SRC_URI="http://launchpad.net/gtkhotkey/${VERSION%.*}/${VERSION}/+download/${NAME}-${VERSION}.tar.gz"
-PATCH_URI="0.2.1-docdir.patch"
+PATCH_URI="
+	https://launchpadlibrarian.net/86284735/gtkhotkey-glib-2.31.patch
+	0.2.1-docdir.patch
+"
 
 PKG_NAMES="lib${NAME}1 lib${NAME}-devel"
 libgtkhotkey1_CONTENTS="usr/bin/*-1.dll usr/share/doc/"
