@@ -1,6 +1,0 @@
-category: Gnome
-requires: libglib2.0_0 libgtk2.0_0 libX11_6
-external-source: gtkhotkey
-sdesc: "GTK+ hotkey library (runtime)"
-ldesc: "A library providing platform independent hotkey handling for 
-Gtk+ applications."

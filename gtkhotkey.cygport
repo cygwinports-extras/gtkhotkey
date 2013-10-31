@@ -1,0 +1,16 @@
+inherit gnome2
+
+NAME="gtkhotkey"
+VERSION=0.2.1
+RELEASE=1
+CATEGORY="Libs"
+SUMMARY="GTK+ hotkey library"
+DESCRIPTION="A library providing platform independent hotkey handling for
+Gtk+ applications."
+HOMEPAGE="https://launchpad.net/gtkhotkey"
+SRC_URI="http://launchpad.net/gtkhotkey/${VERSION%.*}/${VERSION}/+download/${NAME}-${VERSION}.tar.gz"
+PATCH_URI="0.2.1-docdir.patch"
+
+PKG_NAMES="lib${NAME}1 lib${NAME}-devel"
+libgtkhotkey1_CONTENTS="usr/bin/*-1.dll usr/share/doc/"
+libgtkhotkey_devel_CONTENTS="usr/include/ usr/lib/ usr/share/gtk-doc/"
